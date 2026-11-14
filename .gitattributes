@@ -15,3 +15,17 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+# Runs on Linux servers: must stay LF even when deployed from Windows
+*.sh text eol=lf
+
+# Binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.xlsx binary
+*.zip binary
+*.dll binary
+*.exe binary
